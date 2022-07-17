@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<script  defer src="home.js"></script>
+<body>
+    <h1>Sudoku Solver</h1>
+    <div id="top">
+    <button id="3by3" onclick="create(3)">3X3</button>
+    <button id="4by4" onclick="create(4)">4X4</button>
+    <button id="6by6" onclick="create(6)">6X6</button>
+    <button id="9by9" onclick="create(9)">9X9</button>
+   
+     <p id="note"><b>Select Size of the Sudoku</b></p>
+    </div>
+    <div id="box">
+
+    </div>
+    <br>
+    <button id="sub" onclick="solve()">Submit</button>
+    <div id="ans">
+        
+    </div>
+    <button id="refresh" onclick="location.reload()">Try again</button>
+</body>
+</html>
